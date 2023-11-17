@@ -34,7 +34,7 @@ The picture above shows some sample data collected from METU Campus Buildings. E
 ### Flow Transfer Learning
 I use a method of transfer learning implemented using a pre-trained MobileNetV2 model for image classification. 
 
-- a dataset containing images of cracked and non-cracked buildings is loaded and split into training and validations 
+- A dataset containing images of cracked and non-cracked buildings is loaded and split into training and validations 
 
 - Data augmentation techniques are applied to the training dataset to increase its diversity. 
 <p align="center">
@@ -58,6 +58,10 @@ The picture shows accurate data during 10 epochs. The graph shows a good model
 <p align="center">
 <img src="https://github.com/SalmanSuhaimi/Concrete-Crack-Images-for-Classification/assets/148429853/f62c9233-b2b4-48fc-bda7-26c8aace4f29" width="600" height="600"/>
 <p>
+The picture shows data prediction whether the image is positive or negative
+
+## Conclusion
+In conclusion, the application of transfer learning has proven to be highly effective in the task of crack detection. Leveraging pre-trained models on large datasets, especially in image recognition tasks, provides a powerful foundation for learning intricate features that are relevant to crack identification. By fine-tuning a pre-trained model on a specific crack detection dataset, the model can adapt and specialize, yielding impressive results. This approach not only capitalizes on the knowledge gained from broader datasets but also significantly reduces the need for extensive labeled data in the target domain. Transfer learning, therefore, emerges as a robust and efficient methodology for achieving accurate and reliable crack detection results.
 
 ## Data source:
 https://data.mendeley.com/public-files/datasets/5y9wdsg2zt/files/8a70d8a5-bce9-4291-bab9-b48cfb3e87c3/file_downloaded
